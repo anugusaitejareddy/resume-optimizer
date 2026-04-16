@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+resume-optimizer-ui/node_modules/
+resume-optimizer-ui/dist/
