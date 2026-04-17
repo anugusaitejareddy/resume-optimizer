@@ -37,6 +37,6 @@ memory = MemorySaver()
 
 graph = builder.compile(
     checkpointer= memory,
-    interrupt_before= ["perform_optimization_node"]
+    interrupt_after= ["ask_clarifying_questions_node"]
 )
 
